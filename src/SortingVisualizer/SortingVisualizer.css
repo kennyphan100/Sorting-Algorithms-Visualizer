@@ -1,0 +1,53 @@
+body {
+    background-image: linear-gradient(to right, white, gray);
+}
+
+.bars {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+#title {
+    margin-top: 16px;
+}
+
+.text, .array-bar, #title  {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.array-bar {
+    width: 2px;
+    display: inline-block;
+    background-color: rgb(235, 177, 52);
+    margin: 0 1px;
+}
+
+.header {
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.options {
+    margin: 0 3em;
+}
+
+#algorithms_text {
+    margin: 5px;
+}
+
+.buttons {
+    margin: 5px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#speed {
+    margin-left: 5px;
+}
+
+.text {
+    margin: 0 3px;
+}
